@@ -30,7 +30,7 @@ mkdir -p /home/pi/pics
 You need to:
 * Create a /var/www/html/webcam folder
 ```
-mkdir -p /var/www/html/webcam
+mkdir -p /var/www/html/webcam/{images,videos}
 ```
 * Change user/group to the "pi" user
 ```
