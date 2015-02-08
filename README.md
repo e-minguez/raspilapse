@@ -20,25 +20,25 @@ The raspberry pi mounts a remote directory using sshfs instead using its own sto
 You need to:
 * Create a /home/pi/pics director
 ```
-    mkdir -p /home/pi/pics
+mkdir -p /home/pi/pics
 ```
 * Setup a crontab at boot like 
 ```
-    @reboot /home/pi/webcam.sh
+@reboot /home/pi/webcam.sh
 ```
 ## Installation in VPS
 You need to:
 * Create a /var/www/html/webcam folder
 ```
-    mkdir -p /var/www/html/webcam
+mkdir -p /var/www/html/webcam
 ```
 * Change user/group to the "pi" user
 ```
-    chown -R pi:pi /var/www/html/webcam
+chown -R pi:pi /var/www/html/webcam
 ```
 * Create a crontab entry for the pi user:
 ```
-    @daily /home/pi/upload_timelapse.sh
+@daily /home/pi/upload_timelapse.sh
 ```
 * Run youtube-upload to configure the token, etc. once
 
