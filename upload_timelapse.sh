@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DATE=$(date +%Y%m%d)
+DATE=$(date -d '-1 day' +%Y%m%d)
 DATEFORMAT=$(date '+%d/%m/%Y')
 
 TITLE="${DATEFORMAT}"
