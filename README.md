@@ -14,6 +14,7 @@ The raspberry pi mounts a remote directory using sshfs instead using its own sto
 ### VPS requisites
 * [youtube-upload](https://github.com/tokland/youtube-upload)
 * pi user
+* ffmpeg
 * Apache running
 
 ## Installation in the raspberry
