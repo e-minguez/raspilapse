@@ -1,5 +1,5 @@
 # raspilapse
-raspilapse is a set of script to create a webcam using raspberry pi camera pics, and at the end of the day, create a timelapse with all that day images and upload it to youtube automatically.
+raspilapse is a set of scripts that creates a webcam using raspberry pi camera pics, and at the end of the day, it creates a timelapse with all those daily images and uploads it to youtube automatically.
 
 As the raspberry is located at home, I didn't want to NAT ports or whatever, instead, I've used a cheap VPS to upload the pics to it to serve as a webcam, and to create the timelapse.
 The raspberry pi mounts a remote directory using sshfs instead using its own storage (better sd life)
